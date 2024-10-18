@@ -1,0 +1,24 @@
+# some information about you
+name: "Barret"
+nickname: "Barret"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/barretcircle.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "barretblake@live.com"
+  github: barretb
+  linkedin: barretblake
+  twitter: barretblake
+
+# some summary about what you do
+summary:
+  - I am a Developer
+  - I am an Author
+  - I am a Husband
+  - I am a Father
+  - I am a Speaker
+  - I am a Model Railroader
+  - I am a Gamer
+  - I am a Mentor
+  - I am a Creator
