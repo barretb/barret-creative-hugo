@@ -3,11 +3,6 @@ title: "Time Travel"
 date: 2022-03-13T00:00:00
 description: The first thing you need to understand is that time travel isn’t possible.
 hero: images/pexels-ron-lach-7954883-scaled.jpg
-menu:
-  sidebar:
-    name: Fiction
-    identifier: fiction
-    weight: 10
 tags: ["time travel"]
 categories: ["Fiction"]
 ---
