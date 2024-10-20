@@ -78,9 +78,9 @@ params:
     favicon: /images/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/barretb/barret-creative-hugo.github.io
+  #gitRepo: https://github.com/barretb/barret-creative-hugo.github.io
   # Default branch of your Git repo
-  gitBranch: main
+  #gitBranch: main
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
