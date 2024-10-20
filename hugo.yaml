@@ -2,6 +2,8 @@ baseURL: http://creative.barretblake.com
 languageCode: en-us
 title: Barret Gets Creative
 
+timeout: 90000
+
 module:
   hugoVersion:
     min: "0.128.0"
