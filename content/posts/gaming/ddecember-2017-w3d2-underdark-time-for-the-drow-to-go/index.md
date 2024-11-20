@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W3D2 – Underdark – Time For The Drow To Go"
+title: "D&December 2017 – W3D2 – Underdark – Time For The Drow To Go"
 date: "2017-12-20"
 categories: 
   - "gaming"

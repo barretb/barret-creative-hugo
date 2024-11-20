@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W1D5 – A Moment of Triumph"
+title: "D&December 2017 – W1D5 – A Moment of Triumph"
 date: "2017-12-08"
 categories: 
   - "gaming"

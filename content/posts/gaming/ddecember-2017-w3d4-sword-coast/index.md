@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W3D4 – Sword Coast"
+title: "D&December 2017 – W3D4 – Sword Coast"
 date: "2017-12-22"
 categories: 
   - "gaming"

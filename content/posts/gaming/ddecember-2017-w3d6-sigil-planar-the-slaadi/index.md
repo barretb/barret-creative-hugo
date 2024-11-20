@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W3D6 – Sigil/Planar – The Slaadi"
+title: "D&December 2017 – W3D6 – Sigil/Planar – The Slaadi"
 date: "2017-12-29"
 categories: 
   - "fiction"

@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W3D3 – Forests &amp; Wilds"
+title: "D&December 2017 – W3D3 – Forests &amp; Wilds"
 date: "2017-12-21"
 categories: 
   - "gaming"

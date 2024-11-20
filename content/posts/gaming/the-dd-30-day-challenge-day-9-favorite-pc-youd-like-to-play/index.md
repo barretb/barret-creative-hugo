@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 9 – Favorite PC you’d like to play"
+title: "The D&D 30 Day Challenge - Day 9 – Favorite PC you’d like to play"
 date: "2017-10-24"
 categories: 
   - "gaming"

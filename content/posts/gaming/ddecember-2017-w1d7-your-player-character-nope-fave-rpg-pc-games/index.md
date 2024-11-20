@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017-W1D7-Your Player Character? Nope, Fave RPG PC Games"
+title: "D&December 2017-W1D7-Your Player Character? Nope, Fave RPG PC Games"
 date: "2017-12-10"
 categories: 
   - "gaming"

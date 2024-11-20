@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W4D3 – Wizards"
+title: "D&December 2017 – W4D3 – Wizards"
 date: "2017-12-02"
 categories: 
   - "gaming"

@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 25 – Favorite Magic Item"
+title: "The D&D 30 Day Challenge - Day 25 – Favorite Magic Item"
 date: "2017-11-09"
 categories: 
   - "gaming"

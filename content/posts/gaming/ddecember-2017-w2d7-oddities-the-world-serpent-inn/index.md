@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W2D7 – Oddities – The World Serpent Inn"
+title: "D&December 2017 – W2D7 – Oddities – The World Serpent Inn"
 date: "2017-12-18"
 categories: 
   - "gaming"

@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 6 – Favorite Deity"
+title: "The D&D 30 Day Challenge - Day 6 – Favorite Deity"
 date: "2017-10-21"
 categories: 
   - "gaming"

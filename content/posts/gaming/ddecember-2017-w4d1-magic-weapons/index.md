@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W4D1 – Magic Weapons"
+title: "D&December 2017 – W4D1 – Magic Weapons"
 date: "2017-12-29"
 categories: 
   - "gaming"

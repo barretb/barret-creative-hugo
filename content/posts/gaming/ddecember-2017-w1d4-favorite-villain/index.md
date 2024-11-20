@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W1D4 – Favorite Villain"
+title: "D&December 2017 – W1D4 – Favorite Villain"
 date: "2017-12-07"
 categories: 
   - "gaming"

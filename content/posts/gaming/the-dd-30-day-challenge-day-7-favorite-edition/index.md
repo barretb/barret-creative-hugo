@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 7 – Favorite Edition"
+title: "The D&D 30 Day Challenge - Day 7 – Favorite Edition"
 date: "2017-10-22"
 categories: 
   - "gaming"

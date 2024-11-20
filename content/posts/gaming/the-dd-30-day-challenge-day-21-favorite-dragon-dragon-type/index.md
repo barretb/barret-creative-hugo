@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 21 – Favorite Dragon/Dragon Type"
+title: "The D&D 30 Day Challenge - Day 21 – Favorite Dragon/Dragon Type"
 date: "2017-11-05"
 categories: 
   - "gaming"

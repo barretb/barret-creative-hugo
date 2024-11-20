@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W2D3 – Abyssal/Fey"
+title: "D&December 2017 – W2D3 – Abyssal/Fey"
 date: "2017-12-14"
 categories: 
   - "gaming"

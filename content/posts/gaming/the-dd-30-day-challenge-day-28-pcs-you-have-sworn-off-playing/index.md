@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 28 – PCs you have sworn off playing"
+title: "The D&D 30 Day Challenge - Day 28 – PCs you have sworn off playing"
 date: "2017-11-12"
 categories: 
   - "gaming"

@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W4D2 – Traps"
+title: "D&December 2017 – W4D2 – Traps"
 date: "2017-12-29"
 categories: 
   - "gaming"

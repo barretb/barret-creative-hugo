@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 29 – Most frequently rolled # on a d20"
+title: "The D&D 30 Day Challenge - Day 29 – Most frequently rolled # on a d20"
 date: "2017-11-13"
 categories: 
   - "fiction"

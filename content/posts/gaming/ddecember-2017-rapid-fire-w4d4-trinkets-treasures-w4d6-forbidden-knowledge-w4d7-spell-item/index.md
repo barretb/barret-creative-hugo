@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – Rapid Fire - W4D4-Trinkets/Treasures, W4D6-Forbidden Knowledge, W4D7-Spell/Item"
+title: "D&December 2017 – Rapid Fire - W4D4-Trinkets/Treasures, W4D6-Forbidden Knowledge, W4D7-Spell/Item"
 date: "2017-12-04"
 categories: 
   - "gaming"

@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 16 – Favorite Ooze/Aberrant Creature"
+title: "The D&D 30 Day Challenge - Day 16 – Favorite Ooze/Aberrant Creature"
 date: "2017-10-31"
 categories: 
   - "gaming"

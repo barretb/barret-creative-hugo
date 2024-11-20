@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W1D6 – A Moment of Despair"
+title: "D&December 2017 – W1D6 – A Moment of Despair"
 date: "2017-12-09"
 categories: 
   - "gaming"

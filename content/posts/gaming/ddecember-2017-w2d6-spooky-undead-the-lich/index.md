@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W2D6 – Spooky/Undead – The Lich"
+title: "D&December 2017 – W2D6 – Spooky/Undead – The Lich"
 date: "2017-12-17"
 categories: 
   - "gaming"

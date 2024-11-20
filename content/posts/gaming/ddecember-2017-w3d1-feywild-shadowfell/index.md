@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W3D1 – Feywild/Shadowfell"
+title: "D&December 2017 – W3D1 – Feywild/Shadowfell"
 date: "2017-12-19"
 categories: 
   - "gaming"

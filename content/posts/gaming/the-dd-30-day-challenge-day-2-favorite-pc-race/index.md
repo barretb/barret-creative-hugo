@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 2 – Favorite PC Race"
+title: "The D&D 30 Day Challenge - Day 2 – Favorite PC Race"
 date: "2017-10-13"
 categories: 
   - "gaming"

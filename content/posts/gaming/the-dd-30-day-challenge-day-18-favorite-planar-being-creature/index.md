@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 18 – Favorite Planar Being/Creature"
+title: "The D&D 30 Day Challenge - Day 18 – Favorite Planar Being/Creature"
 date: "2017-11-02"
 categories: 
   - "gaming"

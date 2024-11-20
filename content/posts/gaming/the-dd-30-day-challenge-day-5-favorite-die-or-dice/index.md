@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 5 – Favorite Die or Dice"
+title: "The D&D 30 Day Challenge - Day 5 – Favorite Die or Dice"
 date: "2017-10-20"
 categories: 
   - "gaming"

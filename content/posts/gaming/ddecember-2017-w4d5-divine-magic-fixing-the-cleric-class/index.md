@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W4D5 – Divine Magic – Fixing the Cleric Class"
+title: "D&December 2017 – W4D5 – Divine Magic – Fixing the Cleric Class"
 date: "2017-12-31"
 categories: 
   - "gaming"

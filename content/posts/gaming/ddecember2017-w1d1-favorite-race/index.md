@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December2017 – W1D1 – Favorite Race"
+title: "D&December2017 – W1D1 – Favorite Race"
 date: "2017-12-04"
 categories: 
   - "gaming"

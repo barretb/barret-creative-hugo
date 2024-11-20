@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W3D5 – Cities, Castles &amp; Tomes – The Castle Guide"
+title: "D&December 2017 – W3D5 – Cities, Castles &amp; Tomes – The Castle Guide"
 date: "2017-12-23"
 categories: 
   - "gaming"

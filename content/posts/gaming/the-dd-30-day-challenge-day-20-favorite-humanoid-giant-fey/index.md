@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 20 – Favorite Humanoid/Giant/Fey"
+title: "The D&D 30 Day Challenge - Day 20 – Favorite Humanoid/Giant/Fey"
 date: "2017-11-04"
 categories: 
   - "gaming"

@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 8 – Favorite PC Of Your Own"
+title: "The D&D 30 Day Challenge - Day 8 – Favorite PC Of Your Own"
 date: "2017-10-23"
 categories: 
   - "gaming"

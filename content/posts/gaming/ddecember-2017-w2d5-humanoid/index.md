@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W2D5 – Humanoid"
+title: "D&December 2017 – W2D5 – Humanoid"
 date: "2017-12-16"
 categories: 
   - "gaming"

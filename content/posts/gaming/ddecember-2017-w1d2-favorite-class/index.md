@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W1D2 – Favorite Class"
+title: "D&December 2017 – W1D2 – Favorite Class"
 date: "2017-12-05"
 categories: 
   - "gaming"

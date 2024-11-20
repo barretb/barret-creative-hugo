@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 1 – How you got started"
+title: "The D&D 30 Day Challenge - Day 1 – How you got started"
 date: "2017-10-12"
 categories: 
   - "gaming"

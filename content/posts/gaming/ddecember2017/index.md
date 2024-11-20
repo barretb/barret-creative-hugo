@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December2017"
+title: "D&December2017"
 date: "2017-12-02"
 categories: 
   - "gaming"

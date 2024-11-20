@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 17 – Favorite Animal/Insect/Arachnid"
+title: "The D&D 30 Day Challenge - Day 17 – Favorite Animal/Insect/Arachnid"
 date: "2017-11-01"
 categories: 
   - "gaming"

@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 27 – Favorite Curse or Cursed Item"
+title: "The D&D 30 Day Challenge - Day 27 – Favorite Curse or Cursed Item"
 date: "2017-11-11"
 categories: 
   - "gaming"

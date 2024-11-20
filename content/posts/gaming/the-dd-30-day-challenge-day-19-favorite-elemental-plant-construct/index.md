@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 19 – Favorite Elemental/Plant/Construct"
+title: "The D&D 30 Day Challenge - Day 19 – Favorite Elemental/Plant/Construct"
 date: "2017-11-03"
 categories: 
   - "gaming"

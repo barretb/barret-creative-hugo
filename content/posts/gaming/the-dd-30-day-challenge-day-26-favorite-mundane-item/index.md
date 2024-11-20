@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 26 – Favorite Mundane Item"
+title: "The D&D 30 Day Challenge - Day 26 – Favorite Mundane Item"
 date: "2017-11-10"
 categories: 
   - "gaming"

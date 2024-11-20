@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W2D4 – Celestial/Demonic – Fallen Angels"
+title: "D&December 2017 – W2D4 – Celestial/Demonic – Fallen Angels"
 date: "2017-12-15"
 categories: 
   - "gaming"

@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W3D7 – House Rules"
+title: "D&December 2017 – W3D7 – House Rules"
 date: "2017-12-28"
 categories: 
   - "gaming"

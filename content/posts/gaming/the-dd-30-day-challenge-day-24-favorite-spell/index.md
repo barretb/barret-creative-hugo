@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 24 – Favorite Spell"
+title: "The D&D 30 Day Challenge - Day 24 – Favorite Spell"
 date: "2017-11-08"
 categories: 
   - "gaming"

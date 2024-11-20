@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 10 – Craziest in-game experience"
+title: "The D&D 30 Day Challenge - Day 10 – Craziest in-game experience"
 date: "2017-10-25"
 categories: 
   - "gaming"

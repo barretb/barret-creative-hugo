@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 15 – Favorite Undead"
+title: "The D&D 30 Day Challenge - Day 15 – Favorite Undead"
 date: "2017-10-30"
 categories: 
   - "gaming"

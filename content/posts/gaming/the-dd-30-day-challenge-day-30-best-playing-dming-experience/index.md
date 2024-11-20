@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 30 – Best Playing/DMing experience"
+title: "The D&D 30 Day Challenge - Day 30 – Best Playing/DMing experience"
 date: "2017-11-14"
 categories: 
   - "gaming"

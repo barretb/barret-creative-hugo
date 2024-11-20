@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W1D3 – Favorite NPC"
+title: "D&December 2017 – W1D3 – Favorite NPC"
 date: "2017-12-06"
 categories: 
   - "gaming"

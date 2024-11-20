@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 4 – Favorite Game World"
+title: "The D&D 30 Day Challenge - Day 4 – Favorite Game World"
 date: "2017-10-19"
 categories: 
   - "gaming"

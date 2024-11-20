@@ -1,5 +1,5 @@
 ---
-title: "D&amp;December 2017 – W2D2 – Too Many Dragons"
+title: "D&December 2017 – W2D2 – Too Many Dragons"
 date: "2017-12-13"
 categories: 
   - "gaming"

@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 12 – Favorite Dungeon Type/Location"
+title: "The D&D 30 Day Challenge - Day 12 – Favorite Dungeon Type/Location"
 date: "2017-10-27"
 categories: 
   - "gaming"

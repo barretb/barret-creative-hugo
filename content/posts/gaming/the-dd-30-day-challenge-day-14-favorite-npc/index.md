@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 14 – Favorite NPC"
+title: "The D&D 30 Day Challenge - Day 14 – Favorite NPC"
 date: "2017-10-29"
 categories: 
   - "gaming"

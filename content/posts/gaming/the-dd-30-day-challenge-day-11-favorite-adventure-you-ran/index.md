@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 11 – Favorite Adventure You Ran"
+title: "The D&D 30 Day Challenge - Day 11 – Favorite Adventure You Ran"
 date: "2017-10-26"
 categories: 
   - "gaming"

@@ -1,5 +1,5 @@
 ---
-title: "The D&amp;D 30 Day Challenge - Day 22 – Favorite Monster Overall"
+title: "The D&D 30 Day Challenge - Day 22 – Favorite Monster Overall"
 date: "2017-11-06"
 categories: 
   - "gaming"
