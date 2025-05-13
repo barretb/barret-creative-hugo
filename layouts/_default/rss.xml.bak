@@ -36,12 +36,6 @@
       {{ with .Site.Params.Author.email }}<author>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Summary | html }}</description>
-      {{ range .Params.categories }}
-      <category>{{ . }}</category>      
-      {{ end }}
-      <categories>{{ .Params.categories }}</categories>
-      <tags>{{ .Params.tags }}</tags>
-      <hero>{{ .Permalink }}{{ .Params.hero }}</hero>
     </item>
     {{ end }}
     {{ end }}
