@@ -30,6 +30,13 @@ jobs:
       - name: Build site with Hugo
         run: hugo --minify --cleanDestinationDir
 
+      - name: Verify build output
+        run: |
+          echo "=== Checking public directory ==="
+          ls -la public/
+          echo "=== Checking for index.html ==="
+          ls -la public/index.html || echo "index.html not found!"
+
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
