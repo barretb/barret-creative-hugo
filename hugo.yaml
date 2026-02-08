@@ -1,327 +1,451 @@
-baseURL: http://creative.barretblake.com
-languageCode: en-us
-title: Barret Gets Creative
+baseURL: "https://creative.barretblake.com"
+languageCode: "en-us"
+title: "Barret's Creative Site"
+theme: hugo-profile
 
-timeout: 90000
+pluralizeListTitles: false
 
-module:
-  hugoVersion:
-    min: "0.128.0"
-    extended: true
-  mounts:
-  - source: content
-    target: content
-  - source: static
-    target: static
-  - source: layouts
-    target: layouts
-  - source: data
-    target: data
-  - source: assets
-    target: assets
-  - source: i18n
-    target: i18n
-  - source: archetypes
-    target: archetypes
-  - source: ../../node_modules/flag-icons/flags
-    target: static/flags
-  - source: ../../node_modules/@fontsource/mulish/files
-    target: static/files
-  - source: ../../node_modules/katex/dist/fonts
-    target: static/fonts
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
 
+enableRobotsTXT: true
 
-# Manage languages
-# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
-languages:
-  en:
-    languageCode: en
-    languageName: English
-    title: "Barret Gets Creative"
-    weight: 1
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID
+  #disqus:
+    #shortname: your-disqus-shortname
 
-# default language for the content
-defaultContentLanguage: en
+pagination:
+  pagerSize: 9
 
-# Allow raw html in markdown file
 markup:
   goldmark:
     renderer:
       unsafe: true
-  tableOfContents:
-    startLevel: 2
-    endLevel: 6
-    ordered: false
 
-# At least HTML and JSON are required for the main HTML content and
-# client-side JavaScript search
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
+Menus:
+  main:
+    - identifier: blog5
+      name: Fiction
+      title: Fiction
+      url: /fiction
+      weight: 2
+    - identifier: blog2
+      name: Gaming
+      title: Gaming
+      url: /gaming
+      weight: 3
+    - identifier: blog3
+      name: Photography
+      title: Photography
+      url: /photos
+      weight: 4
+    - identifier: blog7
+      name: Trains
+      title: Trains
+      url: /trains
+      weight: 5
+    #- identifier: gallery
+    #  name: Gallery
+    #  title: Blog posts
+    #  url: /gallery
+    #  weight: 5
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
 
-# Enable global emoji support
-enableEmoji: true
-
-# Site parameters
 params:
-  author:
-    name: Barret
+  title: "Barret's Creative Site"
+  description: I like to create things
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/fav.png"
 
-  # Background image of the landing page
-  background: /images/Gethrun2.jpg
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
 
-  # Provide logos for your site. The inverted logo will be used in the initial
-  # transparent navbar and the main logo will be used in the non-transparent navbar.
-  logo:
-    main: /images/main-logo.png
-    inverted: /images/inverted-logo.png
-    favicon: /images/favicon.png
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
 
-  # GitHub repo of your site
-  #gitRepo: https://github.com/barretb/barret-creative-hugo.github.io
-  # Default branch of your Git repo
-  #gitBranch: main
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
 
-  # Configure the number of section title visible in the top navbar
-  topNavbar:
-    maxVisibleSections: 5
+  # Whether the fade animations on the home page will be enabled
+  animate: true
 
-  # Configure various features of this theme
-  features:
+  theme:
+     disableThemeToggle: false
+     defaultTheme: "dark" # dark
 
-    # Enable dark theme
-    darkMode:
-    
-    # [Deprecated] Enable dark theme
-    # This is a deprecated setting, but has not been removed to maintain backward compatibility
-    # If `theme` is set, the `darkMode` setting will be discarded.
-    # darkMode:
-    #   enable: true
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
 
-    # Configure theme color settings
-    theme:
-      enable: true
-      services:
-        light: true # enable light theme. default "true"
-        dark: true # enable dark theme. default "true"
-        default: system # can be either light, dark or system. default "system"
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
 
-    # Enable and configure portfolio
-    portfolio:
-      enable: true
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
 
-    # Enable and configure blog posts
-    blog:
-      enable: true
-      showAuthor: true
-      # Share post on different social media
-      shareButtons:
-        facebook: true
-        twitter: true
-        linkedin: true
-        reddit: true
-        whatsapp: true
-        email: true
-        # tumblr: true
-        # pocket: true
-        # diaspora: true
-        # mastodon: true
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Barret's Creative Site" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
 
-    # Enable & configure "Notes" features
-    notes:
-      enable: false
-
-    # Enable comment feature. There, should be only one of them.
-    comment:
-      enable: false
-      services:
-        # disqus:
-        #   shortName: toha-example-site
-        # valine:
-        #   appId: HTV6askWxVo3vOxlqjjaq2hd-MsYXbMMI
-        #   appKey: pVrT3C85KGIuk27t07eh6bUC
-        #   avatar: retro
-        #   placeholder: Share your thought.
-        #   lang: en
-        #   recordIP: true
-        #   enableQQ: true
-        # utteranc:
-        #   repo: github.com/hugo-toha/hugo-toha.github.io
-        #   issueTerm: title
-        #   theme: github-light
-        # giscus:
-        #   repo: your-repo/name
-        #   repoID: your-repo-id
-        #   category: your-category
-        #   categoryID: your-category-id
-          # theme: light
-          # map: url
-          # reaction: 1
-          # metadata: 0
-          # inputPosition: bottom
-          # crossOrigin: anonymous
-        # commento:
-        #   serverURL: cdn.commento.io
-        #   autoInit: true
-        #   hideDeleted: false
-
-    # Enable Analytics
-    analytics:
-      enabled: false
-      services:
-        # cloudflare web analytics
-        # cloudflare:
-        #   token: "<token>"
-        # Google Analytics
-        google:
-          id: G-H4LBG7NDFZ
-        # # CounterDev
-        # counterDev:
-        #   id: <your counterdev id>
-        # # GoatCounter
-        # goatCounter:
-        #   code: <your goat counter code>
-        # # Matomo / Piwik
-        # matomo:
-        #   instance: matomo.example.com
-        #   siteId: 1 # Or any other number
-        # # Umami
-        # umami:
-        #   scheme: https
-        #   instance: umami.example.com
-        #   id: <your umami site id>
-
-    # Enable Support
-    support:
-      enable: false
-      services:
-        #kofi:
-        #  user: hossainemruz
-        #  text: Tip Me
-        #  textColor: '#f9fafc'
-        #  backgroundColor: '#248aaa'
-        # buymeacoffee:
-        #   user: <your buymeacoffee.com user>
-        #   text: Support me on Buy me a coffee!
-        #   info: Buy me a coffee!
-        #   color: '#FFDD00'
-
-    # specify whether you want to show Table of Contents in reading page
-    toc:
-      enable: false
-
-    # Show tags under the post title
-    tags:
-      enable: true
-      on_card: true # enables tags in post cards
-
-    # Specify whether to show flag in the language selector. Default is true.
-    flags:
-      enable: true
-      # # If you want to use different country flag for a language, specify them here.
-      # flagOverwrites:
-      #   - languageCode: en
-      #     countryCode: us
-
-    # Enable this to use `embed-pdf` shortcode.
-    embedpdf:
-      enable: false
-
-    # Enable this to create flowcharts using shortcodes.
-    flowchart:
-      enable: false
-      services:
-        # Uncomment for `mermaid` shortcode.
-        mermaid:
-          # For config options, see: https://mermaid-js.github.io/mermaid/#/Setup?id=configuration
-          # theme: dark
-
-    # Enable this to create mathematic expressions using `$$` blocks
-    math:
-      enable: true
-      services:
-        # https://katex.org/docs/autorender.html#api for more configurations
-        katex:
-          delimiters:
-            - left: $$
-              right: $$
-              display: true
-            - left: \\[
-              right: \\]
-              display: true
-            - left: $
-              right: $
-              display: false
-            - left: \\(
-              right: \\)
-              display: false
-
-    # Enable to use custom syntax highlight
-    # Please note, Hugo comes with it's own html based syntax highlighter.
-    # Your code block will still be syntax highlighted by hugo.
-    # For more details: https://gohugo.io/content-management/syntax-highlighting/
-    # To disable Hugo's builtin syntax highlight,
-    # see: https://gohugo.io/getting-started/configuration-markup#highlight
-    # ```
-    # # config.yaml
-    # markup:
-    #   # this disables hugo's syntax highlighting.
-    #   codeFences: false
-    # ```
-    syntaxHighlight:
-      enable: true
-      services:
-        hljs:
-          # see: https://highlightjs.readthedocs.io/en/latest/api.html#configure
-          noHighlightRe: /^no-highlight$/i
-
-    # Enable to use `video-player` shortcode
-    videoPlayer:
-      enable: false
-      services:
-        # convert .js-player class into video player via https://plyr.io/
-        # Can play HTML5 Video, Audio, Youtube, Vimeo.
-        # For more info on setup: https://github.com/sampotts/plyr#quick-setup
-        plyr:
-          # options doc: https://github.com/sampotts/plyr#options
-          # fullscreen: true
-    
-    # Enables copy code button
-    copyCodeButton:
-      enable: true
-
-    # Enable reading time support in post cards and in post pages
-    readingTime:
-      enable: true
-
-
-  # Provide footer configuration.
-  footer:
+  # Hero
+  hero:
     enable: true
-    # You can provide your custom footer template using this option.
-    # Put your template in "layouts/partials" folder of your repo.
-    template: footer.html
-    # Show/hide navigation in the footer. Default is "true".
-    navigation:
-      enable: true
-      # show custom menus in the footer
-      customMenus: true
-    # Show/hide "Contact Me" section in the footer. Default is "true".
-    contactMe:
-      enable: true
-    # Show/hide credentials section in the footer. Default is "true".
-    credentials:
-      enable: true 
-
-    # Show/hide newsletter section in the footer. Default is "true".
-    # Currently, it supports "mailchimp".
-    newsletter:
+    intro: "Hi, my name is"
+    title: "Barret."
+    subtitle: "I like to create things."
+    content: "I am a creative person, from time to time. I love to do a variety of things. It all just depends on what I’m in the mood for. It might be gaming, or writing, or building Lego, or model trains, or slinging code, or messing with my website. You just never know."
+    image: /images/barretcircle2.png
+    bottomImage:
       enable: false
-      provider: mailchimp
-      mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Barret Codes"
+      url: "https://barretblake.dev"
+      download: false
+      newPage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-bluesky
+          url: https://bsky.app/profile/barretblake.dev
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/barretblake
+     # customIcons:
+     #   - icon: /fav.png
+     #     url: "https://example.com"
 
-    # Show/hide disclaimer notice in the footer. Default is "false".
-    disclaimer:
-      enable: false
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/BarretFunko2.jpeg"
+    content: |-
+      I am a software developer and architect by trade, but I occasionally have spurts of creativity.
+    skills:
+      enable: true
+      title: "Here are a few things I like spending my creative time on:"
+      items:
+        - "LEGO"
+        - "Model Railroading"
+        - "Creative Writing"
+        - "RPGs"
+        - "Gaming"
+        - "Express"
+
+  # Experience
+  experience:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - company: "Facebook"
+        companyUrl: "https://example.com"
+        jobs:
+          - name: "Senior Software Developer"
+            date: "Jan 2023 - present"
+            content: "I am currently working as a senior software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+            info:
+              content: Working as a senior software developer
+            featuredItems:
+              fontAwesomeIcons:
+                - icon: fa-brands fa-react
+                  url: https://react.dev/
+                  tooltip: Example tooltip content
+                - icon: fab fa-x-twitter
+                  url: https://example.com
+                  # tooltip: Example tooltip content
+              customIcons:
+                - icon: /fav.png
+                  url: "https://example.com"
+                  tooltip: Example tooltip content
+          - name: "Software Developer"
+            date: "Jan 2022 - Dec 2023"
+            content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
+
+      - company: "Amazon"
+        companyUrl: "https://example.com"
+        jobs:
+          - name: "Software Developer"
+            date: "Sep 2020 - Dec 2021"
+            info:
+              content: I worked as a software developer for more than one year in Amazon.
+            content: |
+              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+              - Lead backend developer for a product.
+              - Created a frontend design for a product.
+
+      - company: "Apple"
+        companyUrl: "https://example.com"
+        jobs: 
+        - name: "Junior Software Developer"
+          date: "Jan 2020 - Aug 2020"
+          featuredItems:
+            fontAwesomeIcons:
+              - icon: fa-brands fa-react
+                url: https://react.dev/
+              - icon: fab fa-x-twitter
+                url: https://example.com
+            customIcons:
+              - icon: /fav.png
+                url: "https://example.com"
+          content: |
+            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+            - Lead backend developer for a product.
+            - Created a frontend design for a product.
+
+      - company: "Netflix"
+        companyUrl: "https://example.com"
+        jobs:
+        - name: "UI/UX Designer"
+          date: "June 2017 - Nov 2019"
+          content: |
+            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+            - Lead backend developer for a product.
+            - Created a frontend design for a product.
+
+      - company: "Google"
+        companyUrl: "https://example.com"
+        jobs:
+        - name: "Product Designer"
+          date: "Feb 2016 - Mar 2017"
+          content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+
+  # Education
+  education:
+    enable: false
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Master of Business Administration"
+        school:
+          name: "University of California, Berkeley"
+          url: "https://example.org"
+        date: "2013 - 2015"
+        GPA: "3.8 out of 5.0"
+        content: |-
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+      - title: "Bachelor of Science in Computer Science"
+        school:
+          name: "Massachusetts Institute of Technology"
+          url: "https://example.org"
+        date: "2009 - 2013"
+        GPA: "3.9 out of 5.0"
+        content: |-
+          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+          - Face mask detection using a single convolutional neural network.
+
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        featuredLink:
+          enable: true
+          name: "My academic record"
+          url: "https://example.com"
+      - title: "High School"
+        school:
+          name: "Thomas Jefferson High School for Science and Technology."
+          url: "https://example.org"
+        GPA: "4.2 out of 5.0"
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+
+  # Achievements
+  achievements:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: Google kickstart runner
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+        image: /images/achievement.jpg
+      - title: Facebook Hackathon Winner
+        content: Developed a product using Artificial Intelligence.
+        image: /images/achievement.jpg
+      - title: Hugo Profile
+        content: Developed a theme and getting 1K+ downloads per month.
+        url: "https://github.com/gurusabarish/hugo-profile"
+        image: /images/achievement.jpg
+      - title: Microsoft Imagine Runner
+        content: We are developed a product which can help others.
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
+
+  # projects
+  projects:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: Hugo Profile
+        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+        image: /images/projects/profile.png
+        featured:
+          name: Demo
+          link: https://hugo-profile.netlify.app
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fa fa-envelope
+            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/hugo-profile
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: Image Converter
+        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+        image: /images/projects/converter.jpg
+        featured:
+          name: Demo
+          link: https://django-converter.herokuapp.com
+        badges:
+          - "Django"
+          - "Bootstrap"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/converter
+
+      - title: Hugo Profile V2
+        content: A clean and simple Hugo template for personal portfolio and blog.
+        image: /images/projects/profile2.jpg
+        featured:
+          name: Demo V2
+          link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/HugoProfileV2
+
+  #Contact
+  contact:
+    enable: false
+    # title: "Custom Name"
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    btnName: Mail me
+    btnLink: mailto:gurusabarisha@gmail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path1: "fiction"
+      path2: "gaming"
+      path3: "photos"
+      path4: "trains"
+      count: 1
+      title: Recent Creativity
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/barretb
+      linkedin: https://linkedin.com/in/barretblake
+      bluesky: https://bsky.app/profile/barretblake.dev
+      # twitter: https://twitter.com
+      # instagram: https://instagram.com
+      # facebook: https://facebook.com
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved, Barret Blake"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
